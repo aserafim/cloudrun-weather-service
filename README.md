@@ -86,18 +86,6 @@ curl https://cloudrun-weather-service-10747099608.us-central1.run.app/weather?ce
 ├── main_test.go
 └── README.md
 ```
-
----
-
-## ⚙️ Variáveis de Ambiente
-
-| Variável         | Obrigatório | Descrição                             |
-| ---------------- | ----------- | ------------------------------------- |
-| `PORT`           | Não         | Porta que o app escuta (padrão: 8080) |
-| `WEATHERAPI_KEY` | **Sim**     | Chave de API da WeatherAPI            |
-
-> 🔒 **Importante:** Não exponha sua chave da WeatherAPI em código público. Utilize variáveis de ambiente para injetá-la.
-
 ---
 
 ## 🧪 Testes
