@@ -30,7 +30,7 @@ Por padrão o serviço roda em `http://localhost:8080`.
 ### Exemplo de chamada
 
 ```bash
-curl "http://localhost:8080/weather?cep=06020194"
+curl "http://localhost:8080/weather?cep=52071081"
 ```
 
 #### Resposta:
@@ -66,7 +66,7 @@ docker run -p 8080:8080 cloudrun-weather-service
 1. Exemplo de chamada
 
 ```bash
-curl https://cloudrun-weather-service-10747099608.us-central1.run.app/weather?cep=01311000
+curl https://cloudrun-weather-service-10747099608.us-central1.run.app/weather?cep=52071081
 ```
 
 2. Retorno:
